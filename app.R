@@ -8,7 +8,7 @@ library(tidyr)
 library(leaflet)
 
 # Load the dataset
-housing <- read.csv("https://raw.githubusercontent.com/benfraser16/shiny-app/refs/heads/main/shiny%20deployment%20set.csv")
+housing <- read.csv("https://raw.githubusercontent.com/benfraser16/shiny-app/refs/heads/main/shiny_deployment_set.csv")
 
 housing_clean <- housing %>% drop_na()
 # Remove rows with "#N/A" in any column
